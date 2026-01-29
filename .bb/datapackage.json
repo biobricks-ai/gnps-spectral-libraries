@@ -1,0 +1,210 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "tables": [
+    {
+      "url": "brick/data.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "spectrum_id",
+            "titles": "Spectrum Id",
+            "datatype": "string",
+            "required": true
+          },
+          {
+            "name": "source_file",
+            "titles": "Source File",
+            "datatype": "string"
+          },
+          {
+            "name": "task",
+            "titles": "Task",
+            "datatype": "string"
+          },
+          {
+            "name": "scan",
+            "titles": "Scan",
+            "datatype": "string"
+          },
+          {
+            "name": "ms_level",
+            "titles": "Ms Level",
+            "datatype": "string"
+          },
+          {
+            "name": "library_membership",
+            "titles": "Library Membership",
+            "datatype": "string"
+          },
+          {
+            "name": "spectrum_status",
+            "titles": "Spectrum Status",
+            "datatype": "string"
+          },
+          {
+            "name": "peaks_json",
+            "titles": "Peaks Json",
+            "datatype": "string"
+          },
+          {
+            "name": "splash",
+            "titles": "Splash",
+            "datatype": "string"
+          },
+          {
+            "name": "submit_user",
+            "titles": "Submit User",
+            "datatype": "string"
+          },
+          {
+            "name": "compound__name",
+            "titles": "Compound  Name",
+            "datatype": "string"
+          },
+          {
+            "name": "ion__source",
+            "titles": "Ion  Source",
+            "datatype": "string"
+          },
+          {
+            "name": "compound__source",
+            "titles": "Compound  Source",
+            "datatype": "string"
+          },
+          {
+            "name": "instrument",
+            "titles": "Instrument",
+            "datatype": "string"
+          },
+          {
+            "name": "pi",
+            "titles": "Pi",
+            "datatype": "string"
+          },
+          {
+            "name": "data__collector",
+            "titles": "Data  Collector",
+            "datatype": "string"
+          },
+          {
+            "name": "adduct",
+            "titles": "Adduct",
+            "datatype": "string"
+          },
+          {
+            "name": "scan_1",
+            "titles": "Scan 1",
+            "datatype": "string"
+          },
+          {
+            "name": "precursor_mz",
+            "titles": "Precursor Mz",
+            "datatype": "string",
+            "propertyUrl": "http://purl.obolibrary.org/obo/MS_1000040"
+          },
+          {
+            "name": "exact_mass",
+            "titles": "Exact Mass",
+            "datatype": "string",
+            "propertyUrl": "http://semanticscience.org/resource/CHEMINF_000216"
+          },
+          {
+            "name": "charge",
+            "titles": "Charge",
+            "datatype": "string"
+          },
+          {
+            "name": "cas__number",
+            "titles": "Cas  Number",
+            "datatype": "string"
+          },
+          {
+            "name": "pubmed_id",
+            "titles": "Pubmed Id",
+            "datatype": "string"
+          },
+          {
+            "name": "smiles",
+            "titles": "Smiles",
+            "datatype": "string",
+            "propertyUrl": "http://semanticscience.org/resource/CHEMINF_000018"
+          },
+          {
+            "name": "inchi",
+            "titles": "Inchi",
+            "datatype": "string",
+            "propertyUrl": "http://semanticscience.org/resource/CHEMINF_000113"
+          },
+          {
+            "name": "inchi_aux",
+            "titles": "Inchi Aux",
+            "datatype": "string"
+          },
+          {
+            "name": "library__class",
+            "titles": "Library  Class",
+            "datatype": "string"
+          },
+          {
+            "name": "spectrum_id_1",
+            "titles": "Spectrum Id 1",
+            "datatype": "string"
+          },
+          {
+            "name": "ion__mode",
+            "titles": "Ion  Mode",
+            "datatype": "string"
+          },
+          {
+            "name": "create_time",
+            "titles": "Create Time",
+            "datatype": "string"
+          },
+          {
+            "name": "task_id",
+            "titles": "Task Id",
+            "datatype": "string"
+          },
+          {
+            "name": "user_id",
+            "titles": "User Id",
+            "datatype": "string"
+          },
+          {
+            "name": "in_ch_i_key_smiles",
+            "titles": "In Ch I Key Smiles",
+            "datatype": "string"
+          },
+          {
+            "name": "in_ch_i_key_inchi",
+            "titles": "In Ch I Key Inchi",
+            "datatype": "string"
+          },
+          {
+            "name": "formula_smiles",
+            "titles": "Formula Smiles",
+            "datatype": "string"
+          },
+          {
+            "name": "formula_inchi",
+            "titles": "Formula Inchi",
+            "datatype": "string"
+          },
+          {
+            "name": "url",
+            "titles": "Url",
+            "datatype": "string"
+          },
+          {
+            "name": "annotation_history",
+            "titles": "Annotation History",
+            "datatype": "string"
+          }
+        ],
+        "primaryKey": "spectrum_id",
+        "aboutUrl": "http://gnps.ucsd.edu/ProteoSAFe/gnpslibrary.jsp?library={spectrum_id}"
+      }
+    }
+  ],
+  "dc:conformsTo": "http://www.w3.org/ns/csvw"
+}

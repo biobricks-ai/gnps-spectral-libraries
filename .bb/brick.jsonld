@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "schema": "https://schema.org/",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "prov": "http://www.w3.org/ns/prov#"
+    }
+  ],
+  "@type": "schema:Dataset",
+  "schema:name": "gnps-spectral-libraries",
+  "schema:description": "The GNPS (Global Natural Products Social Molecular Networking) Spectral Library contains a large collection of MS/MS spectra from natural products, drugs, and other small molecules. This dataset aggregates all GNPS public spectral libraries into a single resource. It is widely used for metabolite identification and molecular networking. The data includes metadata such as compound names, SMILES, InChI, instrument information, and precursor masses. This resource allows researchers to annotate mass spectrometry data against a community-curated database of known standards.",
+  "schema:keywords": ["mass spectrometry", "metabolomics", "natural products", "chemistry", "spectral library"],
+  "dcterms:license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "schema:dateCreated": "2026-01-29",
+  "schema:version": "1.0.0",
+  "schema:creator": {"@type": "schema:Organization", "schema:name": "BioBricks.ai"},
+  "dcat:distribution": [{
+    "@type": "dcat:Distribution",
+    "dcat:downloadURL": "brick/data.parquet",
+    "dcat:mediaType": "application/x-parquet"
+  }]
+}

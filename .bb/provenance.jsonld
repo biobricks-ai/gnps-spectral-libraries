@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/"
+  },
+  "@type": "prov:Entity",
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "prov:wasAssociatedWith": "BioBricks.ai Agentic Builder",
+    "prov:startedAtTime": "2026-01-29T00:00:00Z"
+  },
+  "prov:wasDerivedFrom": {
+    "@type": "prov:Entity",
+    "schema:url": "https://external.gnps2.org/gnpslibrary/ALL_GNPS.json",
+    "schema:name": "GNPS Spectral Libraries (ALL_GNPS)",
+    "dcterms:publisher": "Global Natural Products Social Molecular Networking",
+    "dcterms:issued": "2024",
+    "dcterms:license": "CC0",
+    "schema:citation": "Wang, M., et al. Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking. Nat. Biotechnol. 34, 828–837 (2016). https://doi.org/10.1038/nbt.3597"
+  },
+  "dcterms:accessRights": "Public",
+  "prov:generatedAtTime": "2026-01-29T00:00:00Z"
+}

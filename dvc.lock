@@ -1,0 +1,30 @@
+schema: '2.0'
+stages:
+  download:
+    cmd: python stages/01_download.py
+    deps:
+    - path: stages/01_download.py
+      hash: md5
+      md5: 9bd1b30b90970fb1b40e28e9edcbb9ab
+      size: 1113
+    outs:
+    - path: download/ALL_GNPS.json
+      hash: md5
+      md5: afd1ed9b56624051a782244a8cb93b4b
+      size: 10143254593
+  build:
+    cmd: python stages/02_build.py
+    deps:
+    - path: download/ALL_GNPS.json
+      hash: md5
+      md5: afd1ed9b56624051a782244a8cb93b4b
+      size: 10143254593
+    - path: stages/02_build.py
+      hash: md5
+      md5: 5bfc22e1073a44316f5ab18927a76c60
+      size: 3132
+    outs:
+    - path: brick/data.parquet
+      hash: md5
+      md5: e4f9760b51a4b25a9daaef9f5e0048e0
+      size: 2479492436
